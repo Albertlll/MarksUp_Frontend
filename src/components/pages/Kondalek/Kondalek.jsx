@@ -16,6 +16,7 @@ export default function Kondalek()
                         <LastMarksList/>
                    </div>
                 </div>
+
                 <div className={s.card + ' ' + s.marks}>
                     <div className={s.marks_wrapper}>
                             <Routes>
@@ -26,6 +27,7 @@ export default function Kondalek()
                             </Routes>
                     </div>
                 </div>
+
                 <div className={s.card + ' ' + s.profile_card}>
                     <Profile></Profile>
                 </div>

@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/MarksUp_Frontend/'>
       <Kondalek/>
     </BrowserRouter>
   )
