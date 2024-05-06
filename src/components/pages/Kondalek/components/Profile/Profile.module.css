@@ -1,0 +1,22 @@
+.profile{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.profile_img{
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50px;
+    background-color: aqua;
+
+}
+
+
+.name{
+    width: 250px;
+}

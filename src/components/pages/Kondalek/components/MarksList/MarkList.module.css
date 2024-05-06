@@ -1,0 +1,105 @@
+.mark_list{
+    color: #408FFF;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+
+    font-family: 'Ermilov';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 27px;
+    border-radius: 30px;
+    margin: 31px;
+}
+
+
+.radio {
+    margin: 10px;
+    display: inline;
+  }
+
+
+.marks_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 612px;
+    margin-left: 31px;
+    align-content: center;
+}
+
+.year_parts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    font-size: 30px;
+    align-content: center;
+    width: 300px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#radio1 + label {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: #408FFF;
+
+}
+
+#radio1:checked + label {
+    background-color: #408FFF;
+    color: white;
+}
+
+
+
+#radio2 + label {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    color: #408FFF;
+
+}
+
+#radio2:checked + label {
+    background-color: #408FFF;
+    color: white;
+}
+
+
+
+h3{display: inline;}
+
+td {
+    text-align: left;
+    padding: 10px;
+    border: 3px solid #AECFFF;
+}
+
+tr {
+    text-align: center;
+    padding: 10px;
+    border: 3px solid #AECFFF;
+}
+
+thead{
+    background-color: #408FFF;
+    color: #FFFFFF;
+}
+
+tbody{
+    color: #408FFF;
+}
+
+.marks{
+    padding-left: 37px;
+}

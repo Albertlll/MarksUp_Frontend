@@ -1,0 +1,46 @@
+.mark_5{
+    background-image: url('./marks/5.svg');
+}
+
+.mark_4{
+    background-image: url('./marks/4.svg');
+}
+
+.mark_3{
+    background-image: url('./marks/3.svg');
+}
+
+.mark_2{
+    background-image: url('./marks/2.svg');
+}
+
+.mark_1{
+    background-image: url('./marks/1.svg');
+}
+
+.card{
+    width: 200px;
+    height: 123px;
+}
+
+/* Физика */
+
+
+
+.text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 17px;
+    color: white;
+    font-size: 24px;
+    line-height: 22px;
+    font-family: "Ermilov";
+    width: 161px;
+}
+
+
+

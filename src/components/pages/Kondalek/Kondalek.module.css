@@ -1,0 +1,73 @@
+.main_grid{
+    display: grid;
+    height: 50%;
+    width: 1300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: stretch;
+    gap: 32px;
+
+}
+.grid_wrapper{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.card{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.last_marks{
+    /* width: 960px;
+    height: 250px; */
+    grid-row: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.label{
+    margin-top: 20px;
+    margin-left: 43px;
+    margin-bottom: 24px;
+}
+
+.last_marks_list_wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin: 50px;
+    
+    justify-content: center;
+}
+
+.profile_card{
+    width: 300px;
+    height: 300px;
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.marks{
+    /* width: 1372px;
+    height: 718px; */
+
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+
+
+}
+
+.smth{
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-column: 1;
+
+    /* width: 380px;
+    height: 1000px; */
+}
+
